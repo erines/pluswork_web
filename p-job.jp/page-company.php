@@ -41,7 +41,7 @@
 
 <section class="company marginTop-100-48">
     <div class="company__inner inner">
-      <h1 class="company__title pageTitle pageTitle--withoutIcon">運営会社情報</h1>
+
       <div class="company__information companyInfo">
           <dl class="companyInfo__list">
               <dt class="companyInfo__term">会社名</dt>
