@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*
+Theme Name: カーブス 採用サイト
+Theme URI:  
+Description: カーブス 採用サイト
+Version: 1.0
+Author: casleyconsulting.co.jp
+
+*/
+
+
+@import url(style.css);
+
+html {
+	width:		1120px !important;
+}

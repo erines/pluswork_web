@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*
+Theme Name: 栃木医療求人センター
+Theme URI:  
+Description: 栃木医療求人センター
+Version: 1.0
+Author: monokus.jp
+
+*/
+
+@import url(style.css);
+
+html {
+	width:		1000px !important;
+}

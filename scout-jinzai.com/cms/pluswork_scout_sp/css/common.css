@@ -1,0 +1,281 @@
+@charset "utf-8";
+/*
+Theme Name: 
+Theme URI:  
+Description: 
+Version: 1.0
+Author: casleyconsulting.co.jp
+
+*/
+.btns2 {
+	width:		100%;
+	margin:		0 auto;
+}
+	.btns2 .btn_l {
+	}
+	.btns2 .btn_r {
+	}
+.btn {
+}
+	.btn a ,
+	.btn button {
+		display:	block;
+		width:		100%;
+		padding:	0.8em 0 0.6em;
+		
+		border-radius:	0.1em;
+		border-width:	1px;
+		border-style:	solid;
+		
+		font-weight:	bold;
+		line-height:	1;
+		color:			#fff;
+		
+		text-align:			center;
+		text-decoration:	none;
+	}
+	/* mini */
+	.btn.btn_mini a ,
+	.btn.btn_mini button {
+	}
+	/* wide */
+	.btn.btn_liquid {
+		width:		auto !important;
+	}
+		.btn.btn_liquid a ,
+		.btn.btn_liquid button {
+			width:		auto !important;
+		}
+	.btn a .material-icons ,
+	.btn button .material-icons {
+		/* 
+		font-size:		27px;
+		position:		relative;
+		top:			-2px;
+		*/
+		margin-right:		.3em;
+	}
+	.btn.btn01 a ,
+	.btn.btn01 button {
+		color:			#aaa;
+		
+		border-color:	#bcbdbb;
+background-image:-moz-linear-gradient(50% 0% -90deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%); 
+background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(255,255,255)),color-stop(1, rgb(241,241,241)));
+background-image:-webkit-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%);
+background-image:-o-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%);
+background-image:-ms-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%);
+background-image:linear-gradient(180deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#fff1f1f1,GradientType=0)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#fff1f1f1,GradientType=0);
+
+	}
+	.btn.btn02 a ,
+	.btn.btn02 button {
+		color:			#aaa;
+		
+		border-color:	#bcbdbb;
+background-image:-moz-linear-gradient(50% 0% -90deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%); 
+background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(255,255,255)),color-stop(1, rgb(241,241,241)));
+background-image:-webkit-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%);
+background-image:-o-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%);
+background-image:-ms-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%);
+background-image:linear-gradient(180deg,rgb(255,255,255) 0%,rgb(241,241,241) 100%);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#fff1f1f1,GradientType=0)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#fff1f1f1,GradientType=0);
+
+	}
+.box {
+	background:		#fff;
+	border:			1px solid #ccc;
+	border-radius:	0.18em;
+	
+	padding:		0.5em;
+/*	margin:			0 2.5%; */
+}
+.maintable {
+	width:		100%;
+	border-collapse:	collapse;
+	border:			1px solid #ccc;
+}
+	.maintable th {
+		border-bottom:			1px solid #ccc;
+		background:			#fcfcfc;
+		padding:		0.2em;
+		vertical-align:		top;
+		
+		font-weight:	normal;
+	}
+	.maintable td {
+		border-bottom:		1px solid #ccc;
+		background:			#fff;
+		padding:			0.2em;
+		vertical-align:		top;
+	}
+
+.contact_form {
+}
+	.contact_form .error {
+		color:		#b00;
+	}
+	.contact_form .maintable {
+		display:	block;
+		width:		100%;
+		border:			none;
+	}
+		.contact_form .maintable tbody ,
+		.contact_form .maintable tr {
+			display:		block;
+		}
+		.contact_form .maintable th {
+			display:		block;
+			border:			none;
+			padding:		0 0 0.2em;
+			
+			font-weight:	bold;
+			text-align:		left;
+		}
+		.contact_form .maintable th.no {
+			text-align:		center;
+			
+			background:		#f0f0f0;
+			border-radius:	0.3em;
+			padding:		0.2em ;
+			
+			margin:		0 0 0.5em;
+		}
+		.contact_form .maintable td {
+			display:		block;
+			padding:		0 0 0.8em;
+			
+			border:			none;
+		}
+		.contact_form .maintable td:empty:before {
+			content:		'-';
+		}
+	.contact_form .required th:after {
+		display:	inline-block;
+		padding:		0.3em;
+		margin:			0 0 0 0.3em;
+		
+		border:			1px solid #cc0000;
+		border-radius:	0.3em;
+		
+		font-size:		80%;
+		font-weight:	normal;
+		line-height:	1;
+		color:			#cc0000;
+		
+		content:		'必須';
+	}
+	.contact_form input[type="text"],
+	.contact_form input[type="email"],
+	.contact_form input[type="tel"] ,
+	.contact_form input[type="date"] {
+		width:		100%;
+		box-sizing:	border-box;
+		
+		background:		#fff;
+		border:		1px solid #BFBFBF;
+	}
+	.contact_form select {
+		width:		100%;
+		box-sizing:	border-box;
+		
+		background:		#fff;
+		border:			1px solid #BFBFBF;
+	}
+	.contact_form textarea {
+		width:		100%;
+		height:		8em;
+		box-sizing:	border-box;
+		
+		background:		#fff;
+		border:		1px solid #BFBFBF;
+	}
+	.contact_form label {
+		display:	inline-block;		
+		padding:		0.2em;
+		margin:			0 0.2em 0.2em 0;
+		
+/*		background:		#f9f9f9; */
+		border:			1px solid #eee;
+	}
+		.contact_form label input[type="radio"] ,
+		.contact_form label input[type="checkbox"] {
+			margin:		0 0.4em 0 0;
+		}
+	.contact_form .privacy_contents {
+		width:		100%;
+		height:		5em;
+		box-sizing:	border-box;
+		
+		overflow:	auto;
+		
+		background:		#fff;
+		border:		1px solid #BFBFBF;
+		
+		line-height:	1.5em;
+	}
+	.contact_form .submit {
+		margin:		0.8em auto 0;
+	}
+		.contact_form .submit .btn {
+			margin-left:	auto;
+			margin-right:	auto;
+		}
+	.contact_form .back {
+		margin:		0.2em auto 0;
+		text-align:		center;
+	}
+.contact_form_confirm {
+}
+	.contact_form_confirm .required th:after {
+		display:	none !important;
+	}
+.form_message {
+	padding:	2px 6px;
+	margin:		15px 0 20px;
+	border-radius:	5px;
+	
+	background:		#dfe;
+	color:		#060;
+}
+	.form_message p {
+		margin:		0 !important;
+	}
+
+	
+	
+.pagination {
+	float:		right;
+	text-align:		right;
+}
+	.pagination ul {
+		display:		inline-block;
+		border-left:	#cc0000 1px solid;
+	}
+	.pagination li {
+		display:		inline-block;
+		border-right:	#cc0000 1px solid;
+		vertical-align: middle;
+		padding:		0 3px;
+	}
+	.pagination li a {
+		display:		inline-block;
+		vertical-align: middle;
+		padding:		0 4px;
+		
+		font-size:		13px;
+		font-weight:	normal;
+		line-height:	1.6em;
+		color:			#cc0000;
+		
+		text-decoration:	none;
+	}
+	.pagination li a.active,
+	.pagination li a:hover {
+		background-color:			#cc0000;
+		color:				#fff;
+	}
+

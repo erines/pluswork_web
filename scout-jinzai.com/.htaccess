@@ -1,0 +1,29 @@
+
+#AuthUserFile /home/pluswork/www/scout/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "Please enter your ID and password"
+#AuthType Basic
+#require valid-user
+
+RewriteEngine Off
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+DirectoryIndex index.php , index.html , index.htm
+
+DirectoryIndex index.php , index.html , index.htm
+
+DirectoryIndex index.php , index.html , index.htm
+
+DirectoryIndex index.php , index.html , index.htm
+
+DirectoryIndex index.php , index.html , index.htm
