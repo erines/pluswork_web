@@ -35,9 +35,7 @@
               </dd>
           </dl>
       </div>
-      <div class="company__logo">
-        <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/common/pluswork_logo.svg'); ?>" alt="プラスワークのロゴマーク">
-      </div>
+      
     </div>
   </section>
 
@@ -70,6 +68,9 @@
               外国人特定技能・技能実習制度導入支援
               </dd>
           </dl>
+      </div>
+      <div class="company__logo">
+        <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/common/pluswork_logo.svg'); ?>" alt="プラスワークのロゴマーク">
       </div>
     </div>
   </section>
